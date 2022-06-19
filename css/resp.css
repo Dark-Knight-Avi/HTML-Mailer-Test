@@ -1,0 +1,90 @@
+.line {
+  flex-direction: column;
+}
+.card {
+  width: 80%;
+  margin-top: 30px;
+}
+#mainBox {
+  padding: 45px;
+}
+.row-1 img {
+  width: 35%;
+}
+.row-1 .left h1 {
+  font-size: 2.3rem;
+}
+.row-1 .left p {
+  font-size: 1.3rem;
+}
+@media only screen and (max-width: 909px) {
+  .row-1 .left h1 {
+    font-size: 1.9rem;
+  }
+  .row-1{
+    flex-direction: column-reverse;
+  }
+  .row-1 .left p {
+    font-size: 1rem;
+  }
+}
+.item-1 .left h2{
+    font-size: 100%;
+}
+.item-1 .left h3{
+    font-size: 100%;
+}
+.item-2 .left p{
+    font-size: 50%;
+    text-align: left;
+    margin-right: 5px;
+}
+.item-1, .item-2{
+    padding: 5px 35px;
+}
+.item-1 img, .item-2 img{
+    width: 23%;    
+}
+@media only screen and (max-width: 664px) {
+    .item-1, .item-2{
+        padding: 5px 15px;
+    }
+}
+@media only screen and (max-width: 624px) {
+    .btn{
+        font-size: 1.1rem;
+        padding: 8px
+    }
+}
+@media only screen and (max-width: 756px) {
+    .item-2{
+        /* transform: rotate(90deg); */
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #footer > img{
+        width: 60%;
+    }
+    .item-2 .left p{
+        font-size: 1rem;
+    }
+    /* #container #logo img{
+        width: ;
+    } */
+}
+.row-2 h2{
+    font-size: 1.5rem;
+}
+.btn{
+    width: 90%;
+    font-size: 1.7rem;
+}
+#footer{
+    padding: 60px 60px;
+}
+.right > img{
+    margin: 10px;
+}
+.right{
+    flex-direction: column;
+}

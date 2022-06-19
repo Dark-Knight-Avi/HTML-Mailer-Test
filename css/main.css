@@ -1,0 +1,200 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato:wght@300&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@500&display=swap');
+
+/* container */
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/3x/Asset\ 173x.png');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -9;
+}
+
+#container > h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 200;
+    text-align: center;
+}
+#container #logo img{
+    margin: 40px 0px;
+}
+/* mainbox */
+#mainBox{
+    /* background-image: url('../images/3x/Asset\ 183x.png'); */
+    background-color: #FFFFFF;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-size: cover;
+    height: auto;
+    width: 90%;
+    z-index: -7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 75px;
+    margin-top: 30px;
+}
+span{
+    color: #FF5900;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+.row-1 .left h1{
+    text-align: left;
+    font-size: 3.3rem;
+}
+.row-1 img{
+    width: 50%;
+}
+.row-1 .left p{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 20px;
+    /* background-image: url('../images/2x/Asset\ 92x.png'); */
+    background-color: #FF5900;
+    background-size: cover;
+    z-index: -7;
+    color: white;
+    font-size: 2.2rem;
+    width: 40%;
+    height: 93px;
+    text-align: center; 
+    margin: 20px;
+    border-radius: 40px;
+}
+.item-1{
+    /* background-image: url('../images/2x/Asset\ 72x.png'); */
+    background-color: #EAF5F0;
+    background-size: cover;
+    width: 100%;
+    z-index: -7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.item-1 .left{
+    font-size: 1.5rem;
+}
+.item-1 .left h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.row-2 h2{
+    font-size: 2.2rem;
+}
+.row-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.row-3 h2{
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    /* background-image: url('../images/2x/Asset\ 82x.png'); */
+    background-color: #FFF1C6;
+    background-size: cover;
+    z-index: -7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    padding: 30px ;
+    height: 435px;
+    text-align: center;
+    border-radius: 50px;
+}
+.card > h1{
+    padding: 0px 10px;
+    font-weight: 400;
+}
+.row-4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.row-4 h2{
+    font-size: 1.9rem;
+    font-stretch: expanded;
+    font-weight: 200;
+    margin-top: 50px;
+}
+.item-2{
+    /* background-image: url('../images/2x/Asset\ 72x.png'); */
+    background-color: #EAF5F0;
+    border-radius: 50px;
+    background-size: cover;
+    width: 100%;
+    z-index: -7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    height: 200px;
+    margin-top: 40px;
+}
+.item-2 .left{
+    font-size: 2rem;
+    text-align: left;
+}
+.item-2 .left h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+/* footer */
+#footer{
+    /* background-image: url('../images/2x/Asset\ 162x.png'); */
+    background-color: #F2F2F2;
+    background-size: cover;
+    z-index: -7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px;
+}
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right > img{
+    margin: 25px;
+}
