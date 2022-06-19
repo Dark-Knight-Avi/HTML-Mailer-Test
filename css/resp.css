@@ -71,6 +71,9 @@
     /* #container #logo img{
         width: ;
     } */
+    #mainBox{
+      padding: 30px;
+    }
 }
 .row-2 h2{
     font-size: 1.5rem;
