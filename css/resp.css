@@ -43,7 +43,7 @@
     padding: 5px 35px;
 }
 .item-1 img, .item-2 img{
-    width: 23%;    
+    width: 35%;    
 }
 @media only screen and (max-width: 664px) {
     .item-1, .item-2{
